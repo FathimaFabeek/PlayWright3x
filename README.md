@@ -31,11 +31,15 @@ This repository is a personal learning space for JavaScript fundamentals. It con
 | `09_chapter_Loops/` | Loop examples and practice questions |
 | `10_chapter_Arrays/` | Array concepts, iteration, and tasks |
 | `11_chapter_function/` | Function examples, declarations, and scope concepts |
+| `12_chapter_fn_closure/` | Function closures and practical closure examples |
+| `13_chapter_string/` | String manipulation and string-related practice |
+| `14_chapter_Objects/` | Object literals, property access, and object behavior |
+| `15_chapter_multiDimenArray/` | Multi-dimensional array patterns and examples |
 | `IQ_Notes/` | Interview notes and reference material |
 
 ## Learning path
 
-Basics → Identifiers → Literals → Operators → Statements → Switch → Loops → Arrays → Functions → Notes
+Basics → Identifiers → Literals → Operators → Statements → Switch → Loops → Arrays → Functions → Closures → Strings → Objects → Multi-dimensional Arrays → Notes
 
 ## Running input examples
 
