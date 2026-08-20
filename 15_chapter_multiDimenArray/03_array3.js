@@ -5,7 +5,7 @@ let test=[
 ];
 for(let i=0; i<test.length; i++)
 {
-    for (let j=0; j<test[i].length; j++)
+    for (let j=0; j<test[i].length; j++)//
     {
         process.stdout.write(test[i][j]+" ");
     }

@@ -7,7 +7,6 @@ function tryAgain(testName)
     if (attempts>max)
     {
         return `${testName} exceeded max retries (${max})`;
-
     };
     return `Attempt ${attempts}/${max} for ${testName}`
 }

@@ -1,4 +1,4 @@
-function addLog(a,b)
+function addLog(a,b)//type2
 {
 
     console.log("Sum:", a + b);

@@ -13,5 +13,4 @@ console.log(y.status);
  let c={status:"pass"};
  let d={status:"pass"};
  console.log(c===d);//they arw not same . bcz they are allocated in different locations.
- console.log(history, kilometere);
  

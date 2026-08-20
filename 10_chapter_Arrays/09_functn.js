@@ -10,4 +10,4 @@ console.log(arr); // [1, 2, 0, 0, 5]
 //array.copyWithin(target, start, end)
 const arr2 = [1, 2, 3, 4, 5];
 arr2.copyWithin(0, 3, 5);
-console.log(arr2); // [4, 5, 3, 4, 5]
+console.log(arr2); // [4, 5, 3, 4, 5];

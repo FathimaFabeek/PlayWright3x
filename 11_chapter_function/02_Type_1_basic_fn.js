@@ -28,4 +28,3 @@ function multiplyNumbers(a, b) {
 }
 let x2=multiplyNumbers(5, 3);// prints nothing, but x2=15
 console.log(x2); // Output: 15
-console.log(getGreeting()); 
