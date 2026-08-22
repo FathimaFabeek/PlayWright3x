@@ -1,6 +1,6 @@
 # JavaScript Fundamentals — Learning & Practice
 
-This repository is a personal learning space for JavaScript fundamentals. It contains hands-on practice files covering variables, data types, operators, control flow, functions, arrays, user input, and interview-style notes.
+This repository is a personal learning space for JavaScript fundamentals. It contains hands-on practice files covering variables, data types, operators, control flow, functions, arrays, user input, callbacks, Promises, async/await, and interview-style notes.
 
 > The repository name refers to Playwright learning, but the current content focuses on JavaScript basics rather than automation testing.
 
@@ -14,6 +14,8 @@ This repository is a personal learning space for JavaScript fundamentals. It con
 - Loops and arrays
 - Functions and practical examples
 - User input examples using Node.js
+- Callback functions and asynchronous JavaScript
+- Promises and async/await patterns
 - Notes on identifiers, keywords, and interview questions
 
 ## Repository structure
@@ -35,20 +37,29 @@ This repository is a personal learning space for JavaScript fundamentals. It con
 | `13_chapter_string/` | String manipulation and string-related practice |
 | `14_chapter_Objects/` | Object literals, property access, and object behavior |
 | `15_chapter_multiDimenArray/` | Multi-dimensional array patterns and examples |
+| `16_chapter_Call_Back/` | Callback functions and callback-based workflows |
+| `17_chapter_promis/` | Promise creation, chaining, and error handling |
+| `18_chapter_Async_Await/` | Async/await examples for asynchronous workflows |
 | `IQ_Notes/` | Interview notes and reference material |
+| `Test_Programs/` | Additional practice and test programs |
 
 ## Learning path
 
-Basics → Identifiers → Literals → Operators → Statements → Switch → Loops → Arrays → Functions → Closures → Strings → Objects → Multi-dimensional Arrays → Notes
+Basics → Identifiers → Literals → Operators → Statements → Switch → Loops → Arrays → Functions → Closures → Strings → Objects → Multi-dimensional Arrays → Callbacks → Promises → Async/await → Notes
+
+## Prerequisites
+
+- [Node.js](https://nodejs.org/) installed and available as `node`
+- A code editor such as [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Running input examples
 
 Some scripts in `08_chapter_UserInputs/` read input from standard input. On Windows, after typing input you may need to send an EOF by pressing `Ctrl+Z` and then `Enter` so Node.js can continue.
 
-You can also run many scripts directly with Node.js, for example:
+You can also run many scripts directly with Node.js from the repository root, for example:
 
 ```bash
-node filename.js
+node 18_chapter_Async_Await/02_better_way.js
 ```
 
 ## How to use this repository
