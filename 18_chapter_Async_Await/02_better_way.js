@@ -57,3 +57,16 @@ runLoginFlow();
 //     }).finally(function () {
 //         console.log("Done execution!");
 //     });
+function api_request(){
+    return new Promise(function(resolve){
+        //making a request
+        //.get()
+        resolve({status: 200});
+    });
+}
+async function runApiRequest() {
+    let response = await api_request();
+    console.log("API status:", response.status);
+}
+
+runApiRequest();
