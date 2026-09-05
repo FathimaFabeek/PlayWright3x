@@ -15,6 +15,7 @@ The goal of this repository is to help build confidence in JavaScript by practic
 - Strings and objects
 - Callback functions and higher-order patterns
 - Promises and async/await
+- Classes, objects, static members, and OOP concepts
 - Interview-style JavaScript questions and notes
 
 ## Repository structure
@@ -36,12 +37,13 @@ The goal of this repository is to help build confidence in JavaScript by practic
 | `16_chapter_Call_Back/` | Callback-based examples |
 | `17_chapter_promis/` | Promise creation and chaining examples |
 | `18_chapter_Async_Await/` | Async/await learning files and interview-style exercises |
+| `20_chapter_class_objects_oops/` | Classes, objects, static members, and object-oriented programming exercises |
 | `IQ_Notes/` | Notes and interview-style JavaScript practice material |
 | `Test_Programs/` | Extra practice programs and experiments |
 
 ## Learning path
 
-Basics → Literals → Operators → Statements → Switch → Loops → Arrays → Functions → Closures → Strings → Objects → Multi-dimensional arrays → Callbacks → Promises → Async/Await → Notes
+Basics → Literals → Operators → Statements → Switch → Loops → Arrays → Functions → Closures → Strings → Objects → Multi-dimensional arrays → Callbacks → Promises → Async/Await → Classes and OOP → Notes
 
 ## Prerequisites
 
