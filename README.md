@@ -22,6 +22,8 @@ The goal of this repository is to help build confidence in JavaScript by practic
 
 | Folder | Purpose |
 |---|---|
+| `chapter_01_Basics/` | Introductory JavaScript fundamentals and practice files |
+| `chapter_03_identifier/` | Identifier and naming-rule examples |
 | `04_chapter_Literal/` | Literals, numbers, null, undefined, Infinity, and related basics |
 | `05_chapter_operator/` | Arithmetic, assignment, comparison, logical, ternary, and string operators |
 | `06_CHAPTER_STATEMENT/` | Conditional statements, decision logic, and grading examples |
@@ -37,13 +39,16 @@ The goal of this repository is to help build confidence in JavaScript by practic
 | `16_chapter_Call_Back/` | Callback-based examples |
 | `17_chapter_promis/` | Promise creation and chaining examples |
 | `18_chapter_Async_Await/` | Async/await learning files and interview-style exercises |
+| `19_chapter_Export_Import/` | JavaScript modules, exports, and imports |
 | `20_chapter_class_objects_oops/` | Classes, objects, static members, and object-oriented programming exercises |
+| `21_chapter_OOPs_Encapsulation/` | Encapsulation and access-control practice |
+| `22_chapter_OOPS_Inheritance/` | Inheritance, method overriding, and polymorphism examples |
 | `IQ_Notes/` | Notes and interview-style JavaScript practice material |
 | `Test_Programs/` | Extra practice programs and experiments |
 
 ## Learning path
 
-Basics → Literals → Operators → Statements → Switch → Loops → Arrays → Functions → Closures → Strings → Objects → Multi-dimensional arrays → Callbacks → Promises → Async/Await → Classes and OOP → Notes
+Basics → Identifiers → Literals → Operators → Statements → Switch → Loops → Arrays → Functions → Closures → Strings → Objects → Multi-dimensional arrays → Callbacks → Promises → Async/Await → Modules → Classes → Encapsulation → Inheritance → Notes
 
 ## Prerequisites
 
