@@ -63,6 +63,14 @@ From the repository root, you can run a script like this:
 node 18_chapter_Async_Await/02_better_way.js
 ```
 
+Other useful examples include:
+
+```bash
+node 19_chapter_Export_Import/02_test.js
+node 21_chapter_OOPs_Encapsulation/03_bank.js
+node 22_chapter_OOPS_Inheritance/07_reporter.js
+```
+
 For scripts that read input from the terminal, use the Node.js REPL-style input flow in the terminal. On Windows, you may need to press `Ctrl + Z` and then `Enter` to finish input.
 
 ## How to use this repo
