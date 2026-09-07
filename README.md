@@ -23,6 +23,7 @@ The goal of this repository is to help build confidence in JavaScript by practic
 - Callback functions and higher-order patterns
 - Promises and async/await
 - Classes, objects, static members, and OOP concepts
+- TypeScript fundamentals and typed JavaScript basics
 - Interview-style JavaScript questions and notes
 
 ## Repository structure
@@ -69,6 +70,17 @@ Basics → Identifiers → Literals → Operators → Statements → Switch → 
 
 - [Node.js](https://nodejs.org/) installed
 - A code editor such as [Visual Studio Code](https://code.visualstudio.com/)
+- Run `npm install` once at the root to install TypeScript and Playwright-related dependencies used by the project
+
+## TypeScript setup
+
+The repository now includes a basic TypeScript setup for learning and validation. If you want to run the TypeScript checks from the root, use:
+
+```bash
+npx tsc --noEmit -p tsconfig.json
+```
+
+This helps confirm that TypeScript files in the project are valid and that the workspace configuration supports modern module syntax.
 
 ## Run examples
 
