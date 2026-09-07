@@ -1,23 +1,43 @@
-let attempt=0;
-function flakyAPI()
-{attempt++;
-    if (attempt<=3)
-    {
-        return Promise.resolve("attempt "+attempt+" :success");
-    }
-    else{
-         return Promise.reject("attempt "+attempt+" :failed");
-    }}
-    async function retryTesting(maxRetries)
-    {
-        for (let i=1; i<=maxRetries ; i++)
-        {
-            try{
-                let result= await flakyAPI();
-                console.log('pass promise, I will exit also',result);
+// Retry Pattern with Async/Await - REAL QA
+// One simulated API succeeds after two failures; another exhausts its retries.
+
+function createFlakyAPI(successAttempt) {
+    let attempt = 0;
+
+    return function () {
+        attempt++;
+        if (attempt < successAttempt) {
+            return Promise.reject("Attempt " + attempt + ": failed");
+        }
+        return Promise.resolve("Attempt " + attempt + ": success!");
+    };
+}
+
+async function retryTesting(operation, maxRetries) {
+    for (let i = 1; i <= maxRetries; i++) {
+        try {
+            let result = await operation();
+            console.log('PASS:', result);
+            return result;
+        } catch (error) {
+            console.log('FAIL:', error);
+            if (i === maxRetries) {
+                throw new Error("Test failed after " + maxRetries + " attempts");
             }
-            catch(error)
-            {
-                console.log('fail promise ',error);
-            }}}
-retryTesting(5);
+        }
+    }
+}
+
+async function runRetryExamples() {
+    console.log("Example 1: succeeds within the retry limit");
+    await retryTesting(createFlakyAPI(3), 5);
+
+    console.log("Example 2: exhausts the retry limit");
+    try {
+        await retryTesting(createFlakyAPI(4), 2);
+    } catch (error) {
+        console.log(error.message);
+    }
+}
+
+runRetryExamples();

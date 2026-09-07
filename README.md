@@ -1,6 +1,13 @@
 # PlayWright3x JavaScript Practice
 
+![JavaScript](https://img.shields.io/badge/language-JavaScript-f7df1e?logo=javascript&logoColor=000)
+![Status](https://img.shields.io/badge/status-learning%20project-2f855a)
+
 This repository is a JavaScript learning and practice workspace built around core fundamentals, problem-solving exercises, and asynchronous programming concepts. Although the repo name includes Playwright, the current material focuses on JavaScript fundamentals rather than browser automation.
+
+## What this repository is for
+
+This is a progressive collection of small, runnable examples. Each chapter focuses on a language concept, while the IQ notes and test programs provide additional problems for repetition and revision. The files are intentionally simple so they can be read, changed, and executed individually.
 
 ## Overview
 
@@ -50,6 +57,14 @@ The goal of this repository is to help build confidence in JavaScript by practic
 
 Basics → Identifiers → Literals → Operators → Statements → Switch → Loops → Arrays → Functions → Closures → Strings → Objects → Multi-dimensional arrays → Callbacks → Promises → Async/Await → Modules → Classes → Encapsulation → Inheritance → Notes
 
+## Recommended practice loop
+
+1. Start with the earliest chapter you have not completed.
+2. Run one example and read the output before changing it.
+3. Predict the result of a small modification, then test your prediction.
+4. Use `IQ_Notes/` and `Test_Programs/` to practice the same concept without looking at the solution first.
+5. Keep experiments in a separate file when you want to preserve the original example.
+
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/) installed
@@ -80,6 +95,10 @@ For scripts that read input from the terminal, use the Node.js REPL-style input 
 3. Execute it with Node.js.
 4. Modify the code and practice variations.
 5. Revisit the notes and challenge files to strengthen understanding.
+
+## Repository status
+
+This is an evolving practice repository. Examples may use different coding styles because they were added while learning new JavaScript concepts. There is no build step or package installation required for the basic examples; run individual files directly with Node.js.
 
 ## Notes
 

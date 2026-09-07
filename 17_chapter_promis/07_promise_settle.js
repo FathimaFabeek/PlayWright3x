@@ -5,7 +5,6 @@ Promise.allSettled([
 ]).then(function(results){
     results.forEach(function(r,i)
 {
-    console.log("Test" + (i+1) +":" , r.status, "-", r.status , "-", r.value|| r.reason);
-
-});
+   console.log("Test " + (i + 1) + ":", r.status, "-", r.value || r.reason);
+    });
 });// this is like test report, if you want results for all testcase, can use settle.

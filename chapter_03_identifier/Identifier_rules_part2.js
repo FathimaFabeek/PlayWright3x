@@ -16,8 +16,4 @@ is_logged_in=true;
 const MAX_SIZE=100;
 const API_KEY="abc123";
 const DATABASE_URL="local host";
-//Hungarian Notation
-let strUserName="string prefix";
-let bActive=true;// boolean prefix
-let nCount=10;// number prefix
-let arrItems=[1,2,3];// array prefix
+
