@@ -51,12 +51,16 @@ The goal of this repository is to help build confidence in JavaScript by practic
 | `20_chapter_class_objects_oops/` | Classes, objects, static members, and object-oriented programming exercises |
 | `21_chapter_OOPs_Encapsulation/` | Encapsulation and access-control practice |
 | `22_chapter_OOPS_Inheritance/` | Inheritance, method overriding, and polymorphism examples |
+| `23_chapter_OOPs_polymorphism/` | Polymorphism and related object-oriented programming exercises |
+| `24_Oops_Intrvw/` | Object-oriented programming interview questions and practice |
+| `25_chapter_Type_Script/` | TypeScript fundamentals and typed programming exercises |
+| `26_chapter_TS_oops_Abstraction/` | TypeScript abstraction and object-oriented programming exercises |
 | `IQ_Notes/` | Notes and interview-style JavaScript practice material |
 | `Test_Programs/` | Extra practice programs and experiments |
 
 ## Learning path
 
-Basics → Identifiers → Literals → Operators → Statements → Switch → Loops → Arrays → Functions → Closures → Strings → Objects → Multi-dimensional arrays → Callbacks → Promises → Async/Await → Modules → Classes → Encapsulation → Inheritance → Notes
+Basics → Identifiers → Literals → Operators → Statements → Switch → Loops → Arrays → Functions → Closures → Strings → Objects → Multi-dimensional arrays → Callbacks → Promises → Async/Await → Modules → Classes → Encapsulation → Inheritance → Polymorphism → OOP interview practice → TypeScript → TypeScript abstraction → Notes
 
 ## Recommended practice loop
 
